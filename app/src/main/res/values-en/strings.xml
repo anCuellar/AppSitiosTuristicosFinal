@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppSitiosTuristicos</string>
+    <string name="textView1">Developer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="textView3">Student ING Systems</string>
+    <string name="close">Back</string>
+    <string name="texLug1">London</string>
+    <string name="Ubicacion11">Location</string>
+    <string name="textDes12">People: 87.878.920</string>
+    <string name="textDes13">"Language : English "</string>
+    <string name="nav_camera">Home</string>
+    <string name="nav_gallery">Places</string>
+    <string name="nav_share">About</string>
+    <string name="nav_send">Exit</string>
+</resources>

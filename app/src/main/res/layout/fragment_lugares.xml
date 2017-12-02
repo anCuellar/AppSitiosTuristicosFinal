@@ -1,0 +1,872 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.darioalexanderpaz.appsitiosturisticos.Lugares">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageButton
+        android:id="@+id/imageTodos"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:src="@drawable/todasciudades" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/texLug1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texLug1"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageEsta1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/londres" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes11"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: INGLATERRA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textDes12"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="@string/textDes12"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes13"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="@string/textDes13"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/texLug2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="ESTAMBUL"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="141dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageEsta2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/estambul" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes21"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: TURQUIA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes22"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 14.657.434"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes23"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text=" IDIOMA: TURCO"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/texLug3"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="MARRAKECH"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/marruecos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes31"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: MARRUECOS"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes32"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 928.850"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes33"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: ARABE"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug4"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="PARIS"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/paris" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes41"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  FRANCIA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes42"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 2.243.739"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes43"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: FRANCES"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug5"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="SIEMP REAP"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/siemreap" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="143dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes51"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: CAMBOYA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes52"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HBITANTES: 147.866"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes53"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: CAMBOYANO"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug6"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="PRAGA"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/praga" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes61"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: REPUBLICA CHECA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes62"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 1.280.508"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes63"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: CHECO"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion61"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug7"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="ROMA"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/roma" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes72"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: ITALIA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes73"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 2.864.348"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes74"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: ITALIANO"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion71"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug8"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="HANOI"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/hanoi" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes81"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: VIETNAM"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes82"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 7.587.800"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes83"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: VIENTNAMITA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion81"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug9"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="NUEVA YORK"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/newyork" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes91"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: EE.UU"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes92"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 8.537.673"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes93"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: INGLES"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion91"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug10"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="UBUD"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ubud" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes101"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: INDONESIA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes102"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 3.551.000"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes103"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: IDONESIO"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion101"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug11"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="BARCELONA"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/barcelona" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes111"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: ESPANA"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes112"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 1.608.746"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes113"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: ESPAÑOL"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texLug12"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="LISBOA"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes121"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/lisboa" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes122"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  PAIS: PORTUGAL"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes123"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="  HABITANTES: 545.245"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes124"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="  IDIOMA: PORTUGUES"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/Ubicacion112"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Ubicacion11" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

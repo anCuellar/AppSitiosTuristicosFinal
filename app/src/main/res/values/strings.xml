@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppSitiosTuristicos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="textView1">Desarrollador</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="textView3">Estudiante ING. Sistemas</string>
+    <string name="close">Atras</string>
+    <string name="texLug1">Londres</string>
+    <string name="Ubicacion11">Ubicacion</string>
+    <string name="textDes12">Habitantes: 87.878.920</string>
+    <string name="textDes13">Idioma: Ingles</string>
+    <string name="nav_camera">Inicio</string>
+    <string name="nav_gallery">Lugares</string>
+    <string name="nav_share">Acerca De</string>
+    <string name="nav_send">Salir</string>
+</resources>
